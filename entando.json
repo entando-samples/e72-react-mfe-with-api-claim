@@ -1,5 +1,11 @@
 {
-    "microservices": [],
+    "microservices": [
+        {
+            "name": "simple-node-ms",
+            "stack": "node",
+            "healthCheckPath": "/api/health"
+        }
+    ],
     "microfrontends": [
         {
             "name": "simple-mfe",
