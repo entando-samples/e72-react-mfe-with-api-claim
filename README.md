@@ -1,5 +1,5 @@
-# Configurable React MFE
-The project is a bundle with a configurable React MFE (simple-mfe) for Entando 7.2
+# Configurable React MFE with Node API Claim
+The project is a bundle with a configurable React MFE (simple-mfe) and Node MS for Entando 7.2
 
 ## Prerequisites
 1. Docker account

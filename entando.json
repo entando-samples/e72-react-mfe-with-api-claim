@@ -24,6 +24,13 @@
                     "name": "name",
                     "description": "The name for Hello World"
                 }
+            ],
+            "apiClaims": [
+                {
+                    "name": "simple-node-api",
+                    "type": "internal",
+                    "serviceName": "simple-node-ms"
+                }
             ]
         },
         {
