@@ -1,0 +1,37 @@
+{
+    "microservices": [],
+    "microfrontends": [
+        {
+            "name": "simple-mfe",
+            "customElement": "simple-mfe",
+            "stack": "react",
+            "type": "widget",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "simple-mfe",
+                "it": "simple-mfe"
+            },
+            "configMfe": "simple-mfe-config",
+            "params": [
+                {
+                    "name": "name",
+                    "description": "The name for Hello World"
+                }
+            ]
+        },
+        {
+            "name": "simple-mfe-config",
+            "customElement": "simple-mfe-config",
+            "stack": "react",
+            "type": "widget-config",
+            "group": "free",
+            "publicFolder": "public"
+        }
+    ],
+    "svc": [],
+    "name": "e72-react-mfe-with-api-claim",
+    "version": "0.0.1",
+    "description": "Entando 7.2 React MFE with Config and API Claim",
+    "type": "bundle"
+}
